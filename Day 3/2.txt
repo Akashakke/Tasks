@@ -1,0 +1,20 @@
+var resume=[
+  {
+    "Name": "Akash",
+    "Objective": "To apply for the post of Full stack developert",
+    "Degree": "B.tech",
+    "Specialization": "ECE",
+    "College name": "Karunya",
+    "CGPA": 6.71,
+    "Location": "Coimbatore",
+     "HSC %": 85,
+    "SSLC %": 60,
+    "School name": "St.thomas",
+    "Email": "rakashpraveen@karunya.edu.in",
+    "Contact no.": 9047346659,
+    "Declaration":"I hereby declare that the above information is true to the best of my knowledge"
+  }
+]
+
+for (let i=0;i<resume.length;i++)
+console.log(resume[i])

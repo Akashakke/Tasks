@@ -1,0 +1,19 @@
+Different types of for loops to print (1,2,3)
+//for loop
+for (let i = 1; i < 4; i++) {
+   console.log(i);
+}
+//for in loop
+const object = { a: 1, b: 2, c: 3 };
+
+for (const property in object) {
+  console.log(object[property]);
+}
+//for of loop
+const iterable = [1,2,3];
+
+for (const value of iterable) {
+  console.log(value);
+}
+//for Each loop
+iterable.forEach(element => console.log(element));
