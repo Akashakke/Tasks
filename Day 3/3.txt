@@ -1,0 +1,3 @@
+window is the global object, you can reference any properties of it with just the property name
+screen is a small information object about physical screen dimensions.
+document is the main object of the potentially visible
